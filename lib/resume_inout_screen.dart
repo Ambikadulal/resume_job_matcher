@@ -22,9 +22,8 @@ class _ResumeInputScreenState extends State<ResumeInputScreen> {
             Expanded(
               child: TextFormField(
                 controller: _resumeController,
-                maxLines: null, // Allows for multiline input
-                expands:
-                    true, // Makes the text field expand to fill available space
+                maxLines: null,
+                expands: true,
                 decoration: InputDecoration(
                   labelText: 'Paste your resume text here',
                   border: OutlineInputBorder(),
@@ -35,7 +34,7 @@ class _ResumeInputScreenState extends State<ResumeInputScreen> {
             ElevatedButton(
               onPressed: () {
                 String resumeText = _resumeController.text;
-                print('Resume Text: $resumeText'); // For testing
+                debugPrint('Resume Text: $resumeText'); // For testing
                 Navigator.pushNamed(
                   context,
                   '/jobDescription',

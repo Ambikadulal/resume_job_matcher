@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:resume_job_matcher/job_description_input_screen.dart';
 import 'package:resume_job_matcher/resume_inout_screen.dart';
 
-const String apiKey =
-    'AIzaSyAplKC-p87U-Qrl-Nf4qBLlzwuCHl8nILc'; // Replace with your actual API key
+// const String apiKey =
+//     'AIzaSyAplKC-p87U-Qrl-Nf4qBLlzwuCHl8nILc'; // Replace with your actual API key
+
+const String apiKey = 'AIzaSyB4NhYDiD7a6kg7bhlcadrB69II0l_PfcI';
 
 void main() {
   runApp(MyApp());
@@ -26,7 +28,7 @@ class MyApp extends StatelessWidget {
 
 
 
-//Job Description:
+// Job Description:
 
 // Job Title: Software Engineer
 
@@ -56,7 +58,7 @@ class MyApp extends StatelessWidget {
 // - Experience with Agile development methodologies is a plus.
 
 
-//Resume
+// Resume
 // John Doe
 // (123) 456-7890 | john.doe@email.com | LinkedIn Profile URL
 
