@@ -2,10 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:resume_job_matcher/job_description_input_screen.dart';
 import 'package:resume_job_matcher/resume_inout_screen.dart';
 
-// const String apiKey =
-//     'AIzaSyAplKC-p87U-Qrl-Nf4qBLlzwuCHl8nILc'; // Replace with your actual API key
-
-const String apiKey = 'AIzaSyB4NhYDiD7a6kg7bhlcadrB69II0l_PfcI';
+const String apiKey = 'YOUR_API_KEY_HERE'; // Replace with your actual API key
 
 void main() {
   runApp(MyApp());
